@@ -1,27 +1,21 @@
 # Project Name
 
-> TKOut
-
-## Related Projects
-
-  - Popular Dishes Service - Anna - https://github.com/TKOut-HRSF130/popular-dishes-service
-  - Photos Carousel Service - Billy - https://github.com/TKOut-HRSF130/photos-carousel-service
-  - Bookings Service - Johnny - https://github.com/TKOut-HRSF130/bookings-service
-  - Reviews Service - Mataeux - https://github.com/TKOut-HRSF130/reviews-service
+> SDC | partialtable | reviews-component
 
 ## Table of Contents
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+1. CRUD/API Schema
+2. Data Schema SQL
+3. Data Schema noSQL
 
-## Usage
+## CRUD/API Usage
 
-> Some usage instructions
+> How to use the API
+
+### READ [ GET ]
 
 ## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
 - etc
