@@ -65,3 +65,8 @@ Endpoint To Delete Specific Resturant Data
 
 Endpoint To Delete a Specific Users Information
 > DELETE ::: api/users/:{user_id}
+
+[ TODO - - - ADD RESPONSE DATA ]
+
+### Postgres Schema
+> https://drive.google.com/file/d/1W4pYr576JnZ1fGnHb-Epy5nHb9AEFzoV/view?usp=sharing
