@@ -14,19 +14,54 @@
 
 ### READ [ GET ]
 
-## Requirements
+Endpoint To Get Specific Review
+> GET ::: api/:{restaurant_id}/reviews/:{review_id}
+
+Endpoint To get All Reviews for a given restaurant
+> GET ::: api/:{restaurant_id}/reviews/
+
+Endpoint To Get All Resturant's
+> GET ::: api/restaurant/
+
+Endpoint To Get Specific Resturant Data
+> GET ::: api/restaurant/:{restaurant_id}
+
+Endpoint To Get All User Information
+> GET ::: api/users/
+
+Endpoint To Get Specific User Information
+> GET ::: api/users/:{user_id}
+
+### CREATE [ POST ]
+
+Endpoint To Create Specific Review
+> POST ::: api/:{restaurant_id}/reviews/
+
+Endpoint To Create A Resturant
+> POST ::: api/restaurant/
+
+Enpoint to Create A User
+> POST ::: api/users/
 
 
-- Node 6.13.0
-- etc
+### UPDATE [ PUT ]
 
-## Development
+Endpoint To Update Specific Review
+> PUT ::: api/:{restaurant_id}/reviews/:{review_id}
 
-### Installing Dependencies
+Endpoint To Update Specific Resturant Data
+> PUT ::: api/restaurant/:{restaurant_id}
 
-From within the root directory:
+Endpoint To Update A Users Information
+> PUT ::: api/users/:{user_id}
 
-```sh
-npm install -g webpack
-npm install
-```
+### DELETE [ DELTE ]
+
+Endpoint To Delete a Specific Review
+> DELETE ::: api/:{restaurant_id}/reviews/:{review_id}
+
+Endpoint To Delete Specific Resturant Data
+> DELETE ::: api/restaurant/:{restaurant_id}
+
+Endpoint To Delete a Specific Users Information
+> DELETE ::: api/users/:{user_id}
