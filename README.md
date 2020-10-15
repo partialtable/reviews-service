@@ -7,6 +7,7 @@
 1. CRUD/API Schema
 2. Data Schema SQL
 3. Data Schema noSQL
+4. Setup Postgres On New Client
 
 ## CRUD/API Usage
 
@@ -420,3 +421,13 @@
 
 ### Arango Schema | Document Orientated
 > https://drive.google.com/file/d/1W09TmoVWVerEpRorfIEbg4AZ5j-DF_MA/view?usp=sharing
+
+### 4. Set up Postgres on new Client
+> Please run the commands in the following order!
+
+ * In Bash/Zsh | `npm run init-postgres`
+ * In Bash/Zsh | `npm run start-postgres`
+ * In Bash/Zsh | `psql -d reviews_service -a -f $(pwd)/postgres/postgres.sql `
+ * In Bash/Zsh | `npm run create-csv-restaurant`
+ * In Bash/Zsh | `npm run create-csv-users`
+ * In Bash/Zsh | `npm run create-csv-reviews`

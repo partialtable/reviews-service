@@ -14,9 +14,11 @@
     "seed": "node database/data_seeding.js",
     "test": "jest",
     "test:coverage": "jest --verbose --coverage",
-    "create-csv-restaurant" : "node seeding/postgresRestaurantTable.js",
-    "create-csv-users" : "node seeding/postgresUserTable.js",
-    "create-csv-reviews" : "node seeding/postgresReviewsTable.js"
+    "create-csv-restaurant": "node postgres/seeding/postgresRestaurantTable.js",
+    "create-csv-users": "node postgres/seeding/postgresUserTable.js",
+    "create-csv-reviews": "node postgres/seeding/postgresReviewsTable.js",
+    "start-postgres" : "nodemon postgres/index.js",
+    "init-postgres" : "node postgres/init.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -30,6 +32,7 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
     "path": "0.12.7",
+    "pg": "^8.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
