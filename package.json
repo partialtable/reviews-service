@@ -14,7 +14,7 @@
     "seed": "node database/data_seeding.js",
     "test": "jest",
     "test:coverage": "jest --verbose --coverage",
-    "create-csv" : "node seeding/createCSV.js"
+    "create-csv" : "node seeding/postgresRestaurantTable.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
