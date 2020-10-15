@@ -15,7 +15,7 @@
 ### READ [ GET ]
 
 ### Get A Specific Review
-  * GET `api/restaurant/:{restaurant_id}/reviews/:{review_id}
+  * GET `api/restaurant/:{restaurant_id}/reviews/:{review_id}`
 
 **Path Parameters:**
   * `restaurant_id` | Restaurant ID
@@ -41,7 +41,7 @@
 ```
 
 ### Get All Reviews for a specific restaurant
-  * GET `api/restaurant/:{restaurant_id}/reviews/
+  * GET `api/restaurant/:{restaurant_id}/reviews/`
 
 **Path Parameters:**
   * `restaurant_id` | Restaurant ID
@@ -81,7 +81,7 @@
 ```
 
 ### Get A Specific Resturant's Data
-  * GET `api/restaurant/:{restaurant_id}
+  * GET `api/restaurant/:{restaurant_id}`
 
 **Path Parameters:**
   * `restaurant_id` | Restaurant ID
@@ -184,7 +184,7 @@
     ]
 ```
 ### Get A Specific User's Data
-  * GET `api/users/:{user_id}
+  * GET `api/users/:{user_id}`
 
 **Path Parameters:**
   * `user_id` | User's ID
@@ -202,7 +202,7 @@
 ```
 
 ### Get All User's Data
-  * GET `api/users/
+  * GET `api/users/`
 
 **Path Parameters:**
   * N/A
@@ -230,7 +230,7 @@
 ### CREATE [ POST ]
 
 ### Create A Review
-  * POST `api/restaurant/:{restaurant_id}/reviews/
+  * POST `api/restaurant/:{restaurant_id}/reviews/`
 
 **Path Parameters:**
   * `restaurant_id` | Restaurant ID
@@ -255,7 +255,7 @@
 ```
 
 ### Create A Resturant
-  * POST `api/restaurant/
+  * POST `api/restaurant/`
 
 **Path Parameters:**
   * N/A
@@ -293,7 +293,7 @@
 ```
 
 ### Create A User
-  * POST `api/users/
+  * POST `api/users/`
 
 **Path Parameters:**
   * N/A
@@ -313,7 +313,7 @@
 ### UPDATE [ PUT ]
 
 ### Update A Specific Review
-  * PUT `api/restaurant/:{restaurant_id}/reviews/:{review_id}
+  * PUT `api/restaurant/:{restaurant_id}/reviews/:{review_id}`
 
 **Path Parameters:**
   * `restaurant_id` Restaurant ID
@@ -332,7 +332,7 @@
 ```
 
 ### Update A Specific Restaurant's Data
-  * PUT `api/restaurant/:{restaurant_id}
+  * PUT `api/restaurant/:{restaurant_id}`
 
 **Path Parameters:**
   * `restaurant_id` Restaurant ID
@@ -370,7 +370,7 @@
 ```
 
 ### Update A Specific User's Data
-  * PUT `api/users/:{user_id}
+  * PUT `api/users/:{user_id}`
 
 **Path Parameters:**
   * `user_id` User ID
@@ -390,7 +390,7 @@
 ### DELETE [ DELTE ]
 
 ### Delete A Specific Review
-  * DELETE `api/restaurant/:{restaurant_id}/reviews/:{review_id}
+  * DELETE `api/restaurant/:{restaurant_id}/reviews/:{review_id}`
 
 **Path Parameters:**
   * `restaurant_id` Restaurant ID
@@ -399,7 +399,7 @@
 **Success Status Code:** `204`
 
 ### Delete A Specific Restaurant
-  * DELETE `api/restaurant/:{restaurant_id}
+  * DELETE `api/restaurant/:{restaurant_id}`
 
 **Path Parameters:**
   * `restaurant_id` Restaurant ID
@@ -407,7 +407,7 @@
 **Success Status Code:** `204`
 
 ### Delete A Specific User
-  * DELETE `api/users/:{user_id}
+  * DELETE `api/users/:{user_id}`
 
 **Path Parameters:**
   * `user_id` User ID
