@@ -18,11 +18,6 @@ const createUserTableCSV = () => {
     if ( i === 50 || i === 500000 || i === 1000000 || i === 5000000 ) {
       console.log(`Seeded ${i} Records`);
     }
-    const five = Math.random();
-    const four = Math.random() * (1 - five);
-    const three = Math.random() * (1 - (five + four));
-    const two = Math.random() * (1 - (five + four + three));
-    const one = Math.random() * (1 - (five + four + three + two));
     writer.write({
       first_name: faker.name.firstName(),
       last_name: faker.name.lastName(),
