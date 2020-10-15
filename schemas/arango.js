@@ -41,7 +41,7 @@ const RestuarantsDocumentSchema = {
           properties: {
             review_id: { type: "integer" },
             user_id: { type: "integer" },
-            create_date: { type: "string" },
+            create_date: { type: "date-time" },
             description: { type: "string" },
             rating_overall: { type: "integer" },
             rating_food: { type: "integer" },
