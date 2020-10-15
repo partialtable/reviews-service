@@ -16,7 +16,7 @@ const generateRandomArr = () => {
   return [randomBool(), randomBool(), randomBool(), randomBool()];
 }
 
-
+//Break into smaller CSV files
 //Generate Restaurant Data CSV
 const createRestaurantTableCSV = () => {
   writer.pipe(fs.createWriteStream('RestaurantTable.csv'));

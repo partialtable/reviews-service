@@ -41,7 +41,7 @@
 ```
 
 ### Get All Reviews for a specific restaurant
-  * GET `api/restaurant/:{restaurant_id}/reviews/`
+  * GET `api/restaurant/:{restaurant_id}/reviews`
 
 **Path Parameters:**
   * `restaurant_id` | Restaurant ID
@@ -119,7 +119,7 @@
 ```
 
 ### Get All Resturant Data
-  * GET `api/restaurant/`
+  * GET `api/restaurant`
 
 **Path Parameters:**
   * N/A
@@ -230,7 +230,7 @@
 ### CREATE [ POST ]
 
 ### Create A Review
-  * POST `api/restaurant/:{restaurant_id}/reviews/`
+  * POST `api/restaurant/:{restaurant_id}/reviews`
 
 **Path Parameters:**
   * `restaurant_id` | Restaurant ID
@@ -255,7 +255,7 @@
 ```
 
 ### Create A Resturant
-  * POST `api/restaurant/`
+  * POST `api/restaurant`
 
 **Path Parameters:**
   * N/A
@@ -293,7 +293,7 @@
 ```
 
 ### Create A User
-  * POST `api/users/`
+  * POST `api/users`
 
 **Path Parameters:**
   * N/A
