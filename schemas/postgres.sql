@@ -23,6 +23,8 @@ CREATE TABLE reviews_service.restuarant (
 COPY reviews_service.restuarant (restuarant_name, number_of_reviews, food_overall_rating, service_overall_rating, ambiance_overall_rating, overall_rating, noise_level, one_star_percent, two_star_percent, three_star_percent, four_star_percent, five_star_percent, loved_for_array, filters_array) FROM '/Users/pepe/pepe/HR/SDC/reviews-service/RestaurantTable.csv' DELIMITERS ',' CSV header;
 -- Copy command for CSV to users
 COPY reviews_service.user (first_name, last_name, location, avatar_url) FROM '/Users/pepe/pepe/HR/SDC/reviews-service/UserTable.csv' DELIMITERS ',' CSV header;
+-- Copy command for CSV to reviews
+COPY reviews_service.reviews (restuarant_id, user_id, create_date, description, rating_food, rating_service, rating_ambience, rating_overall, noise_level, would_recommend) FROM '/Users/pepe/pepe/HR/SDC/reviews-service/ReviewTable.csv' DELIMITERS ',' CSV header;
 
 CREATE TABLE reviews_service.user (
   user_id SERIAL PRIMARY KEY,

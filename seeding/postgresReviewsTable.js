@@ -21,7 +21,7 @@ const createReviewTableCSV = () => {
       date = date.toString();
       writer.write({
         restaurant_id: restaurant_id,
-        user_id: Math.floor(Math.random() * 10000),
+        user_id: (1 + Math.floor(Math.random() * 9999)),
         create_date: date,
         description: faker.lorem.paragraph(),
         rating_food: (Math.random() * 5).toFixed(2),
