@@ -387,7 +387,7 @@
     }
 ```
 
-### DELETE [ DELTE ]
+### DELETE [ DELETE ]
 
 ### Delete A Specific Review
   * DELETE `api/restaurant/:{restaurant_id}/reviews/:{review_id}`
