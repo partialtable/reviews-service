@@ -25,3 +25,8 @@ build/
 dist/
 public/
 
+# CSV
+RestaurantTable.csv
+ReviewTable.csv
+UserTable.csv
+
