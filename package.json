@@ -19,7 +19,8 @@
     "create-csv-reviews": "node postgres/seeding/postgresReviewsTable.js",
     "start-postgres": "nodemon postgres/index.js",
     "init-postgres": "node postgres/init.js",
-    "create-csv-avocado-user" : "node arango/seeding/UserAvocado.js"
+    "create-csv-avocado-user" : "node arango/seeding/UserAvocado.js",
+    "create-csv-avocado-res" : "node arango/seeding/RestaurantAvocado.js"
   },
   "dependencies": {
     "arangojs": "^7.0.2",
