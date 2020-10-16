@@ -422,12 +422,14 @@
 ### Arango Schema | Document Orientated
 > https://drive.google.com/file/d/1W09TmoVWVerEpRorfIEbg4AZ5j-DF_MA/view?usp=sharing
 
-### 4. Set up Postgres on new Client
+### 4. Set up Postgres on new Machine
 > Please run the commands in the following order!
 
- * In Bash/Zsh | `npm run init-postgres`
- * In Bash/Zsh | `npm run start-postgres`
- * In Bash/Zsh | `psql -d reviews_service -a -f $(pwd)/postgres/postgres.sql `
- * In Bash/Zsh | `npm run create-csv-restaurant`
- * In Bash/Zsh | `npm run create-csv-users`
- * In Bash/Zsh | `npm run create-csv-reviews`
+> Note the 3rd command is not verified.
+
+ * 1 In Bash/Zsh | `npm run init-postgres`
+ * 2 In Bash/Zsh | `npm run start-postgres`
+ * 3 In Bash/Zsh | `psql -d reviews_service -a -f $(pwd)/postgres/postgres.sql `
+ * 4 In Bash/Zsh | `npm run create-csv-restaurant`
+ * 5 In Bash/Zsh | `npm run create-csv-users`
+ * 6 In Bash/Zsh | `npm run create-csv-reviews`

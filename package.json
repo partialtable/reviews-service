@@ -17,10 +17,12 @@
     "create-csv-restaurant": "node postgres/seeding/postgresRestaurantTable.js",
     "create-csv-users": "node postgres/seeding/postgresUserTable.js",
     "create-csv-reviews": "node postgres/seeding/postgresReviewsTable.js",
-    "start-postgres" : "nodemon postgres/index.js",
-    "init-postgres" : "node postgres/init.js"
+    "start-postgres": "nodemon postgres/index.js",
+    "init-postgres": "node postgres/init.js",
+    "create-csv-avocado-user" : "node arango/seeding/UserAvocado.js"
   },
   "dependencies": {
+    "arangojs": "^7.0.2",
     "axios": "^0.20.0",
     "body-parser": "^1.19.0",
     "csv-write-stream": "^2.0.0",
